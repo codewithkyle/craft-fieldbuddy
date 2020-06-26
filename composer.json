@@ -1,0 +1,41 @@
+{
+    "name": "codewithkyle/field-buddy",
+    "description": "Gain one-click access to field names in the Craft 3 Control Panel.",
+    "type": "craft-plugin",
+    "version": "0.1.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "field buddy"
+    ],
+    "support": {
+        "docs": "https://github.com/codewithkyle/craft-fieldbuddy/blob/master/README.md",
+        "issues": "https://github.com/codewithkyle/craft-fieldbuddy/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Andrews",
+            "homepage": "https://kyleandrews.dev/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "codewithkyle\\fieldbuddy\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Field Buddy",
+        "handle": "field-buddy",
+        "developer": "Kyle Andrews",
+        "developerUrl": "https://kyleandrews.dev/",
+        "documentationUrl": "https://github.com/codewithkyle/craft-fieldbuddy/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/codewithkyle/craft-fieldbuddy/master/CHANGELOG.md",
+        "class": "codewithkyle\\fieldbuddy\\FieldBuddy"
+    }
+}
