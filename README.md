@@ -1,8 +1,6 @@
-# Field Buddy plugin for Craft CMS 3.x
+# Field Buddy plugin for Craft CMS 3
 
 Gain one-click access to field names in the Craft 3 Control Panel.
-
-![Screenshot](resources/img/plugin-logo.png)
 
 ## Requirements
 
@@ -21,23 +19,3 @@ To install the plugin, follow these instructions.
         composer require field-buddy/field-buddy
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Field Buddy.
-
-## Field Buddy Overview
-
--Insert text here-
-
-## Configuring Field Buddy
-
--Insert text here-
-
-## Using Field Buddy
-
--Insert text here-
-
-## Field Buddy Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
-
-Brought to you by [Kyle Andrews](https://kyleandrews.dev/)
