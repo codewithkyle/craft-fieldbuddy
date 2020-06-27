@@ -1,6 +1,6 @@
 # Field Buddy plugin for Craft CMS 3
 
-Gain one-click access to field names in the Craft 3 Control Panel.
+Field Buddy adds a small icon next field labels (dev mode only). When clicked the field's handle will be copied to your clipboard. Field Buddy pairs nicely with the Relabel plugin.
 
 ## Requirements
 
@@ -16,6 +16,6 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require field-buddy/field-buddy
+        composer require codewithkyle/field-buddy
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Field Buddy.
