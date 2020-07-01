@@ -93,7 +93,7 @@ class FieldBuddy extends Plugin
             Plugins::class,
             Plugins::EVENT_AFTER_LOAD_PLUGINS,
             function () {
-                if (Craft::$app->getConfig()->general->devMode)
+                if (Craft::$app->getConfig()->general->devMode && Craft::$app->getRequest()->getIsCpRequest())
                 {
                     $view = Craft::$app->getView();
                     $view->registerAssetBundle(FieldBuddyAsset::class);

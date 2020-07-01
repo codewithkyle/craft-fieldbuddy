@@ -2,7 +2,7 @@
     "name": "codewithkyle/field-buddy",
     "description": "Gain one-click access to field names in the Craft 3 Control Panel.",
     "type": "craft-plugin",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "keywords": [
         "craft",
         "cms",
