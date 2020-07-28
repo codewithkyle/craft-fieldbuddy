@@ -217,7 +217,7 @@ for (let i = 0; i < inputs.length; i++) {
 		const handle = inputs[i].name.replace(/.*\[/, "").replace(/\].*/, "");
 		const field = inputs[i].closest(".field");
 		const label = field.querySelector(".heading label");
-		if (!label.getAttribute("field-buddy")) {
+		if (label && !label.getAttribute("field-buddy")) {
 			label.setAttribute("field-buddy", "hijacked");
 			const el = document.createElement("field-buddy");
 			el.innerHTML =
